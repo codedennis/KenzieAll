@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <form action="" id="cadastro">
+      <label class="labels" for="nome">Nome:</label>
+      <div class="inputs">
+        <input required type="text" id="nome" placeholder="Digite seu nome aqui..." />
+      </div>
+
+      <label class="labels" for="email">E-mail:</label>
+      <div class="inputs">
+        <input required type="email" name="" id="email" placeholder="Digite seu e-mail aqui..." />
+      </div>
+
+      <label class="labels" for="textarea"
+        >O que te motivou a participar do evento?</label
+      >
+      <div class="inputs">
+        <textarea name="msg" id="motivo" cols="50" rows="10" placeholder="Descreva aqui..."></textarea>
+      </div>
+      <label class="labels" for="">Selecione seu módulo:</label>
+      <div id="select">
+        <select name="modulo" id="modulo">
+          <option value="">Full-Time</option>
+          <option value="">Part-Time</option>
+          <option value="">Manhã</option>
+          <option value="">Noite</option>
+        </select>
+      </div>
+
+      <div class="ps">
+        <label class="ps" for="">Cadastre uma senha:</label>
+        <br />
+        <input class="ps" required type="password" placeholder="Digite sua senha aqui..." />
+        <br />
+        <label class="ps" for="">Confirme sua senha:</label>
+        <br />
+        <input class="ps" required type="password" placeholder="Repita a senha..."/>
+      </div>
+
+      <div id="radio">
+        <p>Deseja receber novidades em seu e-mail?</p>
+        <label id="Sim" for="Sim">Sim</label>
+        <input type="radio" name="news" value="Sim" id="Sim">
+        <label id="Não" for="Não">Não</label>
+        <input type="radio" name="news" value="Não" id="Não">
+      </div>
+
+      <button type="submit" id="btn" >Cadastrar</button>
+    </form>
+  </body>
+</html>

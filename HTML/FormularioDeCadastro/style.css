@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cadastro {
+    margin-left: 40%;
+    margin-top: 50px;
+    padding: 30px;
+}    
+
+.inputs {
+    margin-bottom: 00px;
+    padding: 15px;
+}
+
+.labels {
+    padding: 15px;
+}
+
+#select {
+    padding: 15px;
+}
+
+.ps {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#radio {
+    margin-top: 25px;
+}
+
+p {
+    padding: 15px;
+}
+
+#Sim, #Não {
+    padding: 15px;
+}
+
+#btn {
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 5px;
+}
